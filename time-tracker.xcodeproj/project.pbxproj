@@ -14,6 +14,7 @@
 		AC1523D72B1BAA4500F81D38 /* time_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1523D62B1BAA4500F81D38 /* time_trackerTests.swift */; };
 		AC1523E12B1BAA4500F81D38 /* time_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1523E02B1BAA4500F81D38 /* time_trackerUITests.swift */; };
 		AC1523E32B1BAA4500F81D38 /* time_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1523E22B1BAA4500F81D38 /* time_trackerUITestsLaunchTests.swift */; };
+		AC1523F02B1BAA9000F81D38 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1523EF2B1BAA9000F81D38 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AC1523DC2B1BAA4500F81D38 /* time-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "time-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1523E02B1BAA4500F81D38 /* time_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_trackerUITests.swift; sourceTree = "<group>"; };
 		AC1523E22B1BAA4500F81D38 /* time_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC1523EF2B1BAA9000F81D38 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				AC1523C42B1BAA4300F81D38 /* time_trackerApp.swift */,
 				AC1523C62B1BAA4300F81D38 /* ContentView.swift */,
+				AC1523EF2B1BAA9000F81D38 /* FormView.swift */,
 				AC1523C82B1BAA4500F81D38 /* Assets.xcassets */,
 				AC1523CD2B1BAA4500F81D38 /* time_tracker.entitlements */,
 				AC1523CA2B1BAA4500F81D38 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1523F02B1BAA9000F81D38 /* FormView.swift in Sources */,
 				AC1523C72B1BAA4300F81D38 /* ContentView.swift in Sources */,
 				AC1523C52B1BAA4300F81D38 /* time_trackerApp.swift in Sources */,
 			);

@@ -42,9 +42,6 @@ with st.form('my_form', clear_on_submit=True, border=True):
 
         st.write('Submitted')
 
-if st.button('Submit'):
-    st.write('Submitted')
-
 if st.session_state['data'] != []:
     df = pd.DataFrame(st.session_state['data'])
     df = df.set_index('time')
